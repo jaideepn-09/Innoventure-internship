@@ -1,0 +1,39 @@
+
+.footer {
+    background-color: #002641;
+    color: #fff;
+    padding: 20px 0;
+    padding-left: 3rem;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px;
+    padding: 0 20px;
+  }
+  .grid-item {
+    text-align: left;
+  }
+  
+  .grid-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .grid-item ul li {
+    margin-bottom: 5px;
+  }
+  
+  .grid-item a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .copyright {
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #002641;
+    font-size: 14px;
+  }
